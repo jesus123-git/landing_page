@@ -3,7 +3,7 @@ body{
    margin: 0;
    padding: 0;
    display: flex;
-   flex-direction:column;
+   flex-direction: column;
 
 }
 
@@ -20,8 +20,28 @@ button{
 
 }
 
-.header{
+
+.subheader{
+    flex: 1;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
+
+}
+.header{
+    background-color: #1f2937;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+
+
+.container{
+    background-color: #f9faf8;
 }
